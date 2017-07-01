@@ -14,24 +14,27 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_gravity="center_horizontal|center_vertical"
-        android:text="Women Events Nearby"
+        android:text="W E N"
         android:textSize="36dp" />
 
-    <android.support.v7.widget.AppCompatButton
-        android:id="@+id/SignupButton"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/title"
         android:layout_centerHorizontal="true"
-        android:text="Sign Up"
-        android:textAllCaps="false" />
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="24dp"
+        android:text="Women Events Nearby"
+        android:textSize="28dp" />
 
-    <android.support.v7.widget.AppCompatButton
+
+    <com.google.android.gms.common.SignInButton
         android:id="@+id/SignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/SignupButton"
         android:layout_alignParentBottom="true"
-        android:text="Sign In"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:gravity="center_horizontal"
         android:textAllCaps="false" />
 </RelativeLayout>
