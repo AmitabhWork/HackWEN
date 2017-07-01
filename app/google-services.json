@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "726549675746",
+    "firebase_url": "https://jugnilabshomesite.firebaseio.com",
+    "project_id": "jugnilabshomesite",
+    "storage_bucket": "jugnilabshomesite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726549675746:android:86c8f68e4a2c0678",
+        "android_client_info": {
+          "package_name": "wen.hackthon.com.wen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726549675746-iqaro7umtqv8vvi3qduvnj4unsqah3dk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "wen.hackthon.com.wen",
+            "certificate_hash": "380afb963b1cb0496db5fa40ce68107b97af1dbe"
+          }
+        },
+        {
+          "client_id": "726549675746-emj7p4lbrnen7pc0n905g3o8hkmfmgv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1mSPcQzbHoLng7NLJ3XuzfZO6cM2fd_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726549675746-emj7p4lbrnen7pc0n905g3o8hkmfmgv6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
