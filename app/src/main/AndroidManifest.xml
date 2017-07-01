@@ -18,10 +18,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".VerifyActivity" />
         <activity
-            android:name=".HomeActivity"
-            android:label="@string/title_activity_home" />
-        <activity android:name=".VerifyActivity"></activity>
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Create" />
+        <activity android:name=".Join"></activity>
     </application>
 
 </manifest>

@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         mAuth = FirebaseAuth.getInstance();
         FirebaseUser user = mAuth.getCurrentUser();
         if (user != null) {
-            Intent homeintent = new Intent(getApplicationContext(), HomeActivity.class);
+            Intent homeintent = new Intent(getApplicationContext(), Home.class);
             homeintent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(homeintent);
             Toast.makeText(getApplicationContext(), "Welcome back " + user.getDisplayName(), Toast.LENGTH_SHORT).show();
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                             // Sign in success, update UI with the signed-in user's information
                             Log.d(TAG, "signInWithCredential:success");
                             FirebaseUser user = mAuth.getCurrentUser();
-                            Intent himeintent = new Intent(getApplicationContext(), HomeActivity.class);
+                            Intent himeintent = new Intent(getApplicationContext(), Home.class);
                             himeintent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                             startActivity(himeintent);
 
