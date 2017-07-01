@@ -24,7 +24,7 @@ public class Home extends AppCompatActivity {
         find.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent findintent = new Intent(getApplicationContext(), Join.class);
+                Intent findintent = new Intent(getApplicationContext(), MapsActivity.class);
                 startActivity(findintent);
             }
         });

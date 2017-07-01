@@ -19,12 +19,20 @@
             </intent-filter>
         </activity>
         <activity android:name=".VerifyActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
         <activity
             android:name=".Home"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme" />
         <activity android:name=".Create" />
-        <activity android:name=".Join"></activity>
+        <activity android:name=".Join">
+
+        </activity>
+        <activity android:name=".MapsActivity" />
     </application>
 
 </manifest>
